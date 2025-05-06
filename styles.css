@@ -4,7 +4,7 @@
 
 html {
   font-family: "Outfit", sans-serif;
-  font-size: 16px;
+  font-size: clamp(14px, 2vw, 18px);
 }
 
 body {
@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  max-width: 340px;
+  max-width: 370px;
   border: 1px solid black;
   padding: 20px;
   background: hsl(0, 0%, 100%);
@@ -84,9 +84,6 @@ h2:hover {
 }
 
 @media only screen and (max-width: 375px) {
-  body {
-    font-size: 13px;
-  }
   .container {
     max-width: 325px;
   }

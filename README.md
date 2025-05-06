@@ -51,10 +51,14 @@ Users should be able to:
 
 ### What I learned
 
-While working through this project i recap of how to use flex and shadow-box
+While working through this project i recap of how to use flex, clamp and shadow-box.
 
 
 ```css
+html {
+  font-family: "Outfit", sans-serif;
+  font-size: clamp(14px, 2vw, 18px);
+}
 .container {
   max-width: 340px;
   border: 1px solid black;
@@ -76,6 +80,7 @@ It is worth to implement a few interaction with the design.
 ### Useful resources
 
 - [box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
+- [clamp](https://developer.mozilla.org/en-US/docs/Web/CSS/clamp)
 - [flexbox concept](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox) 
 - [flexbox cheatsheet](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) This is an amazing document which helped me foster my understanding with flexbox. I'd recommend it to anyone still learning this concept.
 
