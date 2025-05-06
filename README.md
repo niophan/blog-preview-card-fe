@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click here](https://github.com/niophan/blog-preview-card-fe)
-- Live Site URL: [Click here](https://niophan.github.io/blog-preview-card-fe/)
+- Solution URL: [Click here](https://github.com/niophan/blog-preview-card-fe_2)
+- Live Site URL: [Click here](https://niophan.github.io/blog-preview-card-fe_2/)
 
 ## My process
 
